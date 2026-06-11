@@ -3,7 +3,7 @@
 
 import { UploadResponse, MindmapResponse } from "@/types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
+const API_BASE = "https://ai-mindmaptatuan-1.onrender.com/api";
 
 // ── Upload PDF ─────────────────────────────────────────────────────────────────
 export async function uploadPDF(file: File): Promise<UploadResponse> {
